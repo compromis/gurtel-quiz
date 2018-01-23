@@ -1,8 +1,6 @@
 <template>
   <label :class="{
     'option': true,
-    'option-rajoy': option.type == 'rajoy',
-    'option-homer': option.type == 'homer',
     'disabled': disabled,
     'selected': selected,
     'option-is-correct': option.points > 0 && selected,
@@ -51,13 +49,14 @@ input {
 .option {
   display: block;
   cursor: pointer;
-  padding: 0.75rem;
-  padding-left: 60px;
+  padding: 0.5rem 1.75rem;
+  margin-bottom: 1rem;
   border-radius: 8px;
   font-size: 1.25rem;
   color: $white;
   position: relative;
   transition: 0.2s ease-in-out;
+  background: $option-color;
 
   svg {
     position: absolute;
@@ -69,7 +68,7 @@ input {
   }
 
   &:hover {
-    transform: translateY(-3px);
+    background: $option-hover;
     box-shadow: 0 4px 15px -2px rgba(17, 36, 85, 0.25);
   }
 
@@ -89,18 +88,12 @@ input {
 
 .option-is-correct.selected,
 .option-is-correct.selected:hover {
-  box-shadow: 0 0 0 5px green;
+  background: $true-color-end;
+  color: #fff;
 }
 .option-is-incorrect.selected,
 .option-is-incorrect.selected:hover {
-  box-shadow: 0 0 0 5px red;
-}
-
-@media (min-width: 769px) {
-  .option {
-    padding: 1rem;
-    font-size: 1.5rem;
-    padding-left: 60px;
-  }
+  background: darken($false-color-start, 20%);
+  color: #fff;
 }
 </style>

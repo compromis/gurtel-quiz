@@ -4,10 +4,10 @@
       <div class="question">
         <div class="question-image" :style="'background-image: url(static/img/questions/' + question.id + '.jpg)'"></div>
         <div class="question-badge" v-if="question.badge"><span>{{ question.badge }}</span></div>
-        <h3>&ldquo;{{ question.name }}&rdquo;</h3>
+        <h3>{{ question.name }}</h3>
 
-        <div class="columns question-options">
-          <div class="column" v-for="option in question.options">
+        <div class="question-options">
+          <div v-for="option in question.options">
             <quiz-option
               :key="question.options.indexOf(option)"
               :option="option"
@@ -123,13 +123,11 @@ export default {
   overflow: hidden;
 
   h3 {
-    font-family: $font-headline;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 0.5rem 0;
     line-height: 1.25;
     margin-bottom: 1rem;
-    text-align: center;
   }
 
   &-badge {
@@ -214,7 +212,7 @@ export default {
 @media (min-width: 769px) {
   .question {
     h3 {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       padding: 1rem 1.5rem 1.5rem 1.5rem;
     }
   }
