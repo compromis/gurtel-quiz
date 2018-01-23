@@ -25,7 +25,7 @@ export default {
 }
 
 .intro-heading {
-  margin: 2rem auto;
+  margin: 1rem auto;
 
   &-text {
     display: block;
@@ -36,7 +36,7 @@ export default {
     background-position: center;
     position: relative;
     z-index: 20;
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     height: 200px;
     margin: 0 auto;
@@ -46,7 +46,6 @@ export default {
 .intro-subheading {
   font-size: 2rem;
   letter-spacing: -1px;
-  margin-top: 3rem;
   line-height: 1;
 }
 
@@ -83,12 +82,17 @@ export default {
   .intro {
     padding: 3rem 5rem;
 
-    &-subheading {
-      font-size: 2.5rem;
+    &-heading {
+      margin: 2rem auto;
+
+      &-text {
+        width: 80%;
+      }
     }
 
-    &-image {
-      opacity: 1;
+    &-subheading {
+      font-size: 2.5rem;
+      margin-top: 3rem;
     }
 
     p {
