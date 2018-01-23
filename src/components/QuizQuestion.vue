@@ -29,7 +29,7 @@
                 <img :src="selectedOption.gif" alt="Gif" class="answer-gif" />
                 <h4>{{ selectedOption.message }}</h4>
                 <p>{{ question.message }}</p>
-                <p v-if="nextQuestionId" class="next-button"><a :href="'#q' + nextQuestionId" v-scroll-to="'#q' + nextQuestionId">Següent notícia</a></p>
+                <p v-if="nextQuestionId" class="next-button"><a :href="'#q' + nextQuestionId" v-scroll-to="'#q' + nextQuestionId">Següent pregunta</a></p>
                 <p v-else class="next-button"><a href="#results" v-scroll-to="'#results'">Resultats</a></p>
               </div>
             </div>
