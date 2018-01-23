@@ -47,7 +47,7 @@ export default {
   data () {
     return {
       archiveShown: false,
-      tweet: 'QUIZ: Frase de Rajoy o Homer Simpson? Qui ho va dir?'
+      tweet: 'QUIZ: Quant saps del Cas Gürtel realment?'
     }
   },
 

@@ -37,7 +37,7 @@ export default {
     },
 
     tweet: function () {
-      return 'He tret un ' + this.correctAnswers + ' de ' + this.totalQuestions + ' en el quiz de Rajoy o Homer Simpson de @compromis. Pots superar-me?'
+      return 'He tret un ' + this.correctAnswers + ' de ' + this.totalQuestions + ' en el quiz sobre el cas Gürtel de @compromis. Pots superar-me?'
     }
   }
 }
