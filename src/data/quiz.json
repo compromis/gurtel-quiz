@@ -1,0 +1,262 @@
+{
+  "name": "Rajoy o Homer Simpson?",
+  "questions": [
+    {
+      "id": 1,
+      "name": "A veces la mejor decisión es no tomar ninguna decisión, que también es tomar una decisión.",
+      "message": "Encara que sone impossible, els populars van presentar una esmena als Pressupostos de la Generalitat per a 2018 en la qual reclamaven 270.000 euros per a Cáritas, quan el Consell ha pressupostat 479.000 euros per aquesta entitat.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Per desgràcia, així va ser...",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media3.giphy.com/media/1332tmUf9Myo4o/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Per desgràcia, així va ser...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Toda la vida he tenido un sueño: conseguir todos mis objetivos.",
+      "message": "La Conselleria NO tanca aules ni unitats de la concertada, estableix concerts allà on no arriba la pública. Els pares tenen llibertat per a triar el centre d'estudis dels seus fills.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Fals!",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/l3vR71pwNTO4dJh3q/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Correcte!",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Somos sentimientos y tenemos seres humanos",
+      "message": "El senador Carles Mulet va plantejar aquesta pregunta al Senat per tal de visibilitzar la manca de seriositat en moltes de les respostes que el govern de Rajoy dóna a les preguntes parlamentàries dels grups de l'oposició a la cambra alta.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Com sona",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media1.giphy.com/media/jqTJ9H0zE9Cta/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Vaja que sí",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/EIndPd19dL1sY/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Tenemos que fabricar máquinas que nos permitan seguir fabricando máquinas, porque lo que no van a hacer nunca las máquinas es fabricar máquinas a su vez.",
+      "message": "El PP ha sigut l'únic partit de les Corts Valencianes que no va donar suport a la Llei integral de reconeixement del dret a la identitat i l'expressió de gènere.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "No t'han clarament",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3og0IBdxsxb9zVNedW/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Efectivament",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3og0ILC3R1WsU2FbJm/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Si algo es dificil y duro de hacer, entonces no merece la pena.",
+      "message": "Gràcies a la nova política de mobilitat que fomenta la peatonalització de carrers, el transport públic i l'ús de la bicicleta, els nivells de contaminació de la ciutat de València s'han reduït",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Fake!",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/26gs6vEzlpaxuYgso/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "I tant trola...",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Esto no es como el agua que cae del cielo sin que se sepa exactamente por qué.",
+      "message": "Malgrat que el PP va votar a favor a les Corts de reclamar al govern central un Finançament Just per al País Valencià, no va acudir amb la resta de partits, sindicats, patronal i entitats socials a la manifestació celebrada el 18 de novembre per a exigir-ho. Biporalitat?",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Ja voldriem...",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/g52Y39pUaT21i/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Ja voldriem...",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/geYwtodB9AiI0/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Solo porque no me importe no significa que no lo entienda",
+      "message": "El PP va aconseguir que tornaren el noms dels carrers franquistes a la ciutat d'Alacant.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Per desgràcia, sí",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/Pd8Bf06Sas4yQ/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Per desgràcia, és vertader",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/26BoEBp33RFNV77Ne/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ahora todo se puede demostrar con estadísticas, 40% de la gente lo sabe",
+      "message": "L'Ajuntament de València no multarà ningú per penjar banderes als balcons. Es tracta d'un bulo que l'extrema dreta ha escampat per les xarxes socials.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Fake news!",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/l0MYQLUe1kuJUUSHu/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Fake! Però... fake!",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Siempre estaré detrás de ti, o delante, o a un lado.",
+      "message": "Sí, així ho va declarar l'alcalde de València en defensa de la diversitat i en resposta a la campanya trànsfoba de l'associació “Hazte Oir”.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "Clar que sí!",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/l41YwLuanve0L4XOE/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Clar que ho va dir!",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/l41YktuUJjzzOshri/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Una cosa es ser solidario, y otra es serlo a cambio de nada.",
+      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "No, va ser molt pitjor...",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Va ser molt pitjor...",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Digo las cosas que piensas pero no te atreves a decir.",
+      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "options": [
+        {
+          "name": "Mariano Rajoy",
+          "message": "No, va ser molt pitjor...",
+          "points": 0,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+        },
+        {
+          "name": "Homer Simpson",
+          "message": "Va ser molt pitjor...",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minPoints": 0,
+      "maxPoints": 7,
+      "message": "No et cregues tot el que lliges per Internet. Malauradament, la xarxa està plena de notícies falses; per això, et recomanem sempre llegir-les en més d'un mitjà de comunicació per a poder contrastar-les i que no et donen gat per llebre.",
+      "gif": "https://media.giphy.com/media/P0RWkdsRpK7ss/giphy.gif"
+    },
+    {
+      "minPoints": 8,
+      "maxPoints": 12,
+      "message": "Sens dubte, ets una persona que està al dia de la informació; però, a vegades, baixes la guàrdia i et colen alguna “fake news”. Vés més amb compte ;)",
+      "gif": "https://media3.giphy.com/media/l0IyjvPvBs0oYEwZW/giphy.gif"
+    },
+    {
+      "minPoints": 13,
+      "maxPoints": 14,
+      "message": "Enhorabona, ets un pro detectant notícies falses!",
+      "gif": "https://media.giphy.com/media/26DOoDwdNGKAg6UKI/giphy.gif"
+    },
+    {
+      "minPoints": 15,
+      "maxPoints": 15,
+      "message": "Wow! Ets un pro detectant notícies falses, no te'n colen ni una!",
+      "gif": "https://media.giphy.com/media/YYD3fLEOdcOv6/giphy.gif"
+    }
+  ]
+}
