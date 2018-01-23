@@ -3,41 +3,65 @@
   "questions": [
     {
       "id": 1,
-      "name": "A veces la mejor decisión es no tomar ninguna decisión, que también es tomar una decisión.",
+      "name": "Qui va dir la frase: “Me enfadé con Pablo porque hablar con él era muy complicado, estaba con la cosa de que teníamos los teléfonos pinchados“?",
       "message": "Encara que sone impossible, els populars van presentar una esmena als Pressupostos de la Generalitat per a 2018 en la qual reclamaven 270.000 euros per a Cáritas, quan el Consell ha pressupostat 479.000 euros per aquesta entitat.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Ricardo Costa",
           "message": "Per desgràcia, així va ser...",
-          "points": 1,
-          "type": "rajoy",
+          "points": 0,
           "gif": "https://media3.giphy.com/media/1332tmUf9Myo4o/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Francisco Correa",
+          "message": "Per desgràcia, així va ser...",
+          "points": 1,
+          "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
+        },
+        {
+          "name": "Álvaro Pérez",
           "message": "Per desgràcia, així va ser...",
           "points": 0,
-          "type": "homer",
+          "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
+        },
+        {
+          "name": "Luis Bárcenas",
+          "message": "Per desgràcia, així va ser...",
+          "points": 0,
           "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
         }
       ]
     },
     {
       "id": 2,
-      "name": "Toda la vida he tenido un sueño: conseguir todos mis objetivos.",
+      "name": "Com anomenaven els diaris valencians a la trama abans de connectar-la amb Gürtel?",
       "message": "La Conselleria NO tanca aules ni unitats de la concertada, estableix concerts allà on no arriba la pública. Els pares tenen llibertat per a triar el centre d'estudis dels seus fills.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Cas Fitur",
           "message": "Fals!",
           "points": 0,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/l3vR71pwNTO4dJh3q/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Cas Bigotes",
+          "message": "Correcte!",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
+        },
+        {
+          "name": "Cas Orange Market",
           "message": "Correcte!",
           "points": 1,
+          "type": "homer",
+          "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
+        },
+        {
+          "name": "Cas Correa",
+          "message": "Correcte!",
+          "points": 0,
           "type": "homer",
           "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
         }
@@ -45,18 +69,32 @@
     },
     {
       "id": 3,
-      "name": "Somos sentimientos y tenemos seres humanos",
+      "name": "Què ha fet l'actual Presidenta del PPCV, Isabel Bonig, respecte al llegat corrupte del seu predecessor Francisco Camps?",
       "message": "El senador Carles Mulet va plantejar aquesta pregunta al Senat per tal de visibilitzar la manca de seriositat en moltes de les respostes que el govern de Rajoy dóna a les preguntes parlamentàries dels grups de l'oposició a la cambra alta.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Reclamar-li la dimissió del Consell Jurídic Consultiu",
           "message": "Com sona",
-          "points": 1,
+          "points": 0,
           "type": "rajoy",
           "gif": "https://media1.giphy.com/media/jqTJ9H0zE9Cta/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Posar el seu partit a disposició de la justícia per facilitar que els diners saquejats als valencians tornen a les arques públique",
+          "message": "Vaja que sí",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/EIndPd19dL1sY/giphy.gif"
+        },
+        {
+          "name": "Assistir a homenatges que els membres del PP han realitzat a Camps",
+          "message": "Vaja que sí",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/EIndPd19dL1sY/giphy.gif"
+        },
+        {
+          "name": "Constituir un duo artístic amb Camps per a representar Espanya en Eurovisión",
           "message": "Vaja que sí",
           "points": 0,
           "type": "homer",
@@ -66,18 +104,32 @@
     },
     {
       "id": 4,
-      "name": "Tenemos que fabricar máquinas que nos permitan seguir fabricando máquinas, porque lo que no van a hacer nunca las máquinas es fabricar máquinas a su vez.",
+      "name": "Qui va ser l'autor de la frase “en el PP la festa no s'acaba mai”?",
       "message": "El PP ha sigut l'únic partit de les Corts Valencianes que no va donar suport a la Llei integral de reconeixement del dret a la identitat i l'expressió de gènere.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Francisco Camps",
           "message": "No t'han clarament",
           "points": 0,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/3og0IBdxsxb9zVNedW/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Rita Barberá",
+          "message": "Efectivament",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3og0ILC3R1WsU2FbJm/giphy.gif"
+        },
+        {
+          "name": "Vicente Rambla",
+          "message": "Efectivament",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3og0ILC3R1WsU2FbJm/giphy.gif"
+        },
+        {
+          "name": "Ricardo Costa",
           "message": "Efectivament",
           "points": 1,
           "type": "homer",
@@ -87,20 +139,34 @@
     },
     {
       "id": 5,
-      "name": "Si algo es dificil y duro de hacer, entonces no merece la pena.",
+      "name": "Quina va ser la reacció del grup parlamentari del PP quan es publicà en premsa la conversa del “Amiguito del alma” entre el Bigotes y Camps?",
       "message": "Gràcies a la nova política de mobilitat que fomenta la peatonalització de carrers, el transport públic i l'ús de la bicicleta, els nivells de contaminació de la ciutat de València s'han reduït",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "L'ovacionaren amb un aplaudiment en les Corts.",
           "message": "Fake!",
-          "points": 0,
+          "points": 1,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/26gs6vEzlpaxuYgso/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Demanaren la seua acta com a diputat.",
           "message": "I tant trola...",
-          "points": 1,
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
+        },
+        {
+          "name": "Guardaren silenci i no feren declaracions.",
+          "message": "I tant trola...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
+        },
+        {
+          "name": "El proposaren com a senador.",
+          "message": "I tant trola...",
+          "points": 0,
           "type": "homer",
           "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
         }
@@ -108,18 +174,32 @@
     },
     {
       "id": 6,
-      "name": "Esto no es como el agua que cae del cielo sin que se sepa exactamente por qué.",
+      "name": "Qui va estar convidat a la boda de la filla de José María Aznar?",
       "message": "Malgrat que el PP va votar a favor a les Corts de reclamar al govern central un Finançament Just per al País Valencià, no va acudir amb la resta de partits, sindicats, patronal i entitats socials a la manifestació celebrada el 18 de novembre per a exigir-ho. Biporalitat?",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Francisco Correa",
           "message": "Ja voldriem...",
           "points": 0,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/g52Y39pUaT21i/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Álvaro Pérez",
+          "message": "Ja voldriem...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/geYwtodB9AiI0/giphy.gif"
+        },
+        {
+          "name": "Silvio Berlusconi",
+          "message": "Ja voldriem...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/geYwtodB9AiI0/giphy.gif"
+        },
+        {
+          "name": "Tots els anteriors",
           "message": "Ja voldriem...",
           "points": 1,
           "type": "homer",
@@ -129,18 +209,32 @@
     },
     {
       "id": 7,
-      "name": "Solo porque no me importe no significa que no lo entienda",
+      "name": "Qui va ser l'autor de la frase: \"Algunos deberían estar callados. Me gustaría encontrármelos y enseñarle algún papel para ver de qué color se les pone la cara\"",
       "message": "El PP va aconseguir que tornaren el noms dels carrers franquistes a la ciutat d'Alacant.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Francisco Camps",
           "message": "Per desgràcia, sí",
-          "points": 1,
+          "points": 0,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/Pd8Bf06Sas4yQ/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Álvaro Pérez",
+          "message": "Per desgràcia, és vertader",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/26BoEBp33RFNV77Ne/giphy.gif"
+        },
+        {
+          "name": "Pablo Crespo",
+          "message": "Per desgràcia, és vertader",
+          "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/26BoEBp33RFNV77Ne/giphy.gif"
+        },
+        {
+          "name": "Ricardo Costa",
           "message": "Per desgràcia, és vertader",
           "points": 0,
           "type": "homer",
@@ -150,20 +244,34 @@
     },
     {
       "id": 8,
-      "name": "Ahora todo se puede demostrar con estadísticas, 40% de la gente lo sabe",
+      "name": "¿Què significa la paraula Gürtel?",
       "message": "L'Ajuntament de València no multarà ningú per penjar banderes als balcons. Es tracta d'un bulo que l'extrema dreta ha escampat per les xarxes socials.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Trama",
           "message": "Fake news!",
           "points": 0,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/l0MYQLUe1kuJUUSHu/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Correa",
           "message": "Fake! Però... fake!",
           "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
+        },
+        {
+          "name": "Enlaces",
+          "message": "Fake! Però... fake!",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
+        },
+        {
+          "name": "Conexión",
+          "message": "Fake! Però... fake!",
+          "points": 0,
           "type": "homer",
           "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
         }
@@ -171,18 +279,32 @@
     },
     {
       "id": 9,
-      "name": "Siempre estaré detrás de ti, o delante, o a un lado.",
+      "name": "Quin empresari alacantí, investigat en Brugal i finançador il·legal del PP confés, usava el nom artístic de “la polla insaciable”?",
       "message": "Sí, així ho va declarar l'alcalde de València en defensa de la diversitat i en resposta a la campanya trànsfoba de l'associació “Hazte Oir”.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Enrique Ortiz",
           "message": "Clar que sí!",
           "points": 1,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/l41YwLuanve0L4XOE/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Alfonso Rus",
+          "message": "Clar que ho va dir!",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/l41YktuUJjzzOshri/giphy.gif"
+        },
+        {
+          "name": "Nacho Vidal",
+          "message": "Clar que ho va dir!",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/l41YktuUJjzzOshri/giphy.gif"
+        },
+        {
+          "name": "Francisco Correa",
           "message": "Clar que ho va dir!",
           "points": 0,
           "type": "homer",
@@ -192,20 +314,34 @@
     },
     {
       "id": 10,
-      "name": "Una cosa es ser solidario, y otra es serlo a cambio de nada.",
+      "name": "Com era la relació entre Francisco Camps i Álvaro Pérez “El Bigotes” segons explicaven ells mateixos?",
       "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Lo nuestro es muy bonito",
           "message": "No, va ser molt pitjor...",
-          "points": 0,
+          "points": 1,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "Best Friends Forever BFF",
           "message": "Va ser molt pitjor...",
-          "points": 1,
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Mucho más que una amistad",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "El Dúo Dinámico",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
           "type": "homer",
           "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
         }
@@ -213,20 +349,174 @@
     },
     {
       "id": 11,
-      "name": "Digo las cosas que piensas pero no te atreves a decir.",
+      "name": "Quina quantitat estimava Francisco Camps a Álvaro Pérez “El Bigotes”?",
       "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
       "options": [
         {
-          "name": "Mariano Rajoy",
+          "name": "Mazo",
+          "message": "No, va ser molt pitjor...",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+        },
+        {
+          "name": "A muntó",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "La hostia",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Un güevo",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "En quin any comença la Fiscalia Anticorrupció la seua investigació en Gürtel?",
+      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "options": [
+        {
+          "name": "2011",
           "message": "No, va ser molt pitjor...",
           "points": 0,
           "type": "rajoy",
           "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
         },
         {
-          "name": "Homer Simpson",
+          "name": "2007",
           "message": "Va ser molt pitjor...",
           "points": 1,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "2001",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "2009",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Quin era el nom en clau de l’ex alcaldessa d’Alacant amb el PP, Sonia Castedo, per a Enrique Ortiz?",
+      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "options": [
+        {
+          "name": "Bombón",
+          "message": "No, va ser molt pitjor...",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+        },
+        {
+          "name": "Carinyet",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Mimosina",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Ferrero Rocher",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Què és “lo normal” en un regal de Nadal, segons Rita Barberá va definir els obsequis que rebia de la trama Gürtel?",
+      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "options": [
+        {
+          "name": "Una caixa de taronges",
+          "message": "No, va ser molt pitjor...",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+        },
+        {
+          "name": "Un Vuitton",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Carbó",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Brandy Soberano",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "De què eren els 100 grams que Ricardo Costa li va encomanar a “El Bigotes”?",
+      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "options": [
+        {
+          "name": "Caviar",
+          "message": "No, va ser molt pitjor...",
+          "points": 1,
+          "type": "rajoy",
+          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+        },
+        {
+          "name": "Ibuprofè",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Propaganda de Ciudadanos",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
+          "type": "homer",
+          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+        },
+        {
+          "name": "Anguiles",
+          "message": "Va ser molt pitjor...",
+          "points": 0,
           "type": "homer",
           "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
         }
