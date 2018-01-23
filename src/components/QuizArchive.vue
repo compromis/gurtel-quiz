@@ -38,7 +38,7 @@ export default {
 
 .quiz-archive {
   position: fixed;
-  top: 52px;
+  top: 50px;
   left: 0;
   right: 0;
   bottom: 0;
