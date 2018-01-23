@@ -12,6 +12,7 @@
               :key="question.options.indexOf(option)"
               :option="option"
               :selected="selectedOption.name == option.name"
+              :revealed="selectedOption.name != null"
               :question-id="question.id"
               :disabled="selectedOption.name != null || !visible"
               @change="selectOption" />

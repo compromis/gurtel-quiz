@@ -3,7 +3,8 @@
     'option': true,
     'disabled': disabled,
     'selected': selected,
-    'option-is-correct': option.points > 0 && selected,
+    'revealed': revealed,
+    'option-is-correct': option.points > 0 && (selected || revealed),
     'option-is-incorrect': option.points == 0 && selected
     }">
     <input
@@ -29,6 +30,7 @@ export default {
     option: Object,
     disabled: Boolean,
     selected: Boolean,
+    revealed: Boolean,
     questionId: Number
   },
 
@@ -87,7 +89,8 @@ input {
 }
 
 .option-is-correct.selected,
-.option-is-correct.selected:hover {
+.option-is-correct.selected:hover,
+.option-is-correct.revealed {
   background: $true-color-end;
   color: #fff;
 }
