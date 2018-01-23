@@ -51,7 +51,7 @@ input {
 .option {
   display: block;
   cursor: pointer;
-  padding: 0.5rem 1.75rem;
+  padding: 0.65rem 1.75rem;
   margin-bottom: 1rem;
   border-radius: 8px;
   font-size: 1.25rem;
@@ -59,6 +59,7 @@ input {
   position: relative;
   transition: 0.2s ease-in-out;
   background: $option-color;
+  line-height: 1.25;
 
   svg {
     position: absolute;
@@ -93,10 +94,12 @@ input {
 .option-is-correct.revealed {
   background: $true-color-end;
   color: #fff;
+  opacity: 0.75;
 }
 .option-is-incorrect.selected,
 .option-is-incorrect.selected:hover {
-  background: darken($false-color-start, 20%);
+  background: $false-color-start;
   color: #fff;
+  opacity: 0.75;
 }
 </style>
