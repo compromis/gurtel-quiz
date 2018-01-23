@@ -154,8 +154,8 @@ export default {
   &-options {
     margin-bottom: 0;
 
-    .column {
-      padding-bottom: 0;
+    & > div:last-child {
+      margin-bottom: -1rem;
     }
   }
 }
@@ -163,7 +163,7 @@ export default {
 .answer {
   position: relative;
   background: $white;
-  margin: 1.5rem -1.5rem -1.5rem -1.5rem;
+  margin: 2.5rem -1.5rem -1.5rem -1.5rem;
 
   &-icon {
     position: absolute;
