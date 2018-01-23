@@ -1,7 +1,7 @@
 <template>
   <div class="quiz-archive">
     <ul>
-      <li v-for="quiz in quizzes">
+      <li v-for="quiz in quizzes" v-if="quiz.visible">
         <a :href="quiz.url">
           <img :src="quiz.thumbnail" :alt="quiz.name" />
           <span class="quiz-name">{{ quiz.name }}</span>
