@@ -97,7 +97,7 @@
     {
       "id": 4,
       "name": "Qui va ser l'autor de la frase “en el PP la fiesta no se acaba nunca”?",
-      "message": "El PP ha sigut l'únic partit de les Corts Valencianes que no va donar suport a la Llei integral de reconeixement del dret a la identitat i l'expressió de gènere.",
+      "message": "Aquesta no era fàcil, tots sabem que podia haver sigut de qualsevol dels quatre. No n'hi ha res que li agrade més al PP que una bona festa pagada pel contribuent.",
       "options": [
         {
           "name": "Francisco Camps",
@@ -128,7 +128,7 @@
     {
       "id": 5,
       "name": "Quina va ser la reacció del grup parlamentari del PP quan es publicà en premsa la conversa del “Amiguito del alma” entre el Bigotes y Camps?",
-      "message": "Al més pur “PP style”, Bonig i tota la bancada del PP van rebre a Camps entre aplaudiments quan va tornar a les Corts després d'haver sigut assenyalat en Gürtel.",
+      "message": "Al més pur “PP style”, Bonig i tota la bancada del PP van rebre a Camps com un heroi.",
       "options": [
         {
           "name": "L'ovacionaren amb un aplaudiment en les Corts.",
@@ -283,25 +283,25 @@
     {
       "id": 10,
       "name": "Quina quantitat estimava Francisco Camps a Álvaro Pérez “El Bigotes”?",
-      "message": "Encara que l'amor és un concepte immesurable, Camps i El Bigotes s'estimaven “fue muy bonito”",
+      "message": "Encara que l'amor és un concepte immesurable, Camps i El Bigotes s'estimaven “un güevo”",
       "options": [
         {
           "name": "Mazo",
           "message": "Incorecte",
           "points": 0,
-          "gif": "https://media1.giphy.com/media/OTg4nrmU8vkty/200.webp#7-grid1"
+          "gif": "https://media2.giphy.com/media/l44Q8Tes1elin89b2/200w.webp#1-grid1"
         },
         {
           "name": "A muntó",
           "message": "Incorecte",
           "points": 0,
-          "gif": "https://media1.giphy.com/media/OTg4nrmU8vkty/200.webp#7-grid1"
+          "gif": "https://media1.giphy.com/media/l44Q8Tes1elin89b2/200.webp#7-grid1"
         },
         {
           "name": "La hostia",
           "message": "Incorecte",
           "points": 0,
-          "gif": "https://media1.giphy.com/media/OTg4nrmU8vkty/200.webp#7-grid1"
+          "gif": "https://media1.giphy.com/media/l44Q8Tes1elin89b2/200.webp#7-grid1"
         },
         {
           "name": "Un güevo",
@@ -314,7 +314,7 @@
     {
       "id": 11,
       "name": "En quin any comença la Fiscalia Anticorrupció la seua investigació en Gürtel?",
-      "message": "Fa més de 10 anys que Anticorrupció començà la investigació d'un cas que ha terminat demostrant que el PP és un partit creat per a saquejar els diners públics.",
+      "message": "Fa més de 10 anys que Anticorrupció començà la investigació d'un cas que ha demostrat que el PP és un partit creat per a saquejar els diners públics.",
       "options": [
         {
           "name": "2011",
@@ -351,7 +351,7 @@
           "name": "Rubia",
           "message": "Possible, però no",
           "points": 0,
-          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
+          "gif": "https://media2.giphy.com/media/IT8d252aTz13G/200w.webp#10-grid1"
         },
         {
           "name": "Carinyet",
@@ -363,13 +363,13 @@
           "name": "Mimosina",
           "message": "Així és",
           "points": 1,
-          "gif": "https://media1.giphy.com/media/1tHzw9PZCB3gY/200.webp#7-grid1"
+          "gif": "https://media2.giphy.com/media/IT8d252aTz13G/200w.webp#10-grid1"
         },
         {
           "name": "Ferrero Rocher",
           "message": "Possible, però no",
           "points": 0,
-          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
+          "gif": "https://media2.giphy.com/media/IT8d252aTz13G/200w.webp#10-grid1"
         }
       ]
     },
@@ -386,9 +386,9 @@
         },
         {
           "name": "Un Vuitton",
-          "message": "Qui no ha rebut aquest regal per Nadal?",
+          "message": "Qui no ha rebut un Vuitton per Nadal?",
           "points": 1,
-          "gif": "https://media0.giphy.com/media/l0Ex6JxsaEp5w1wc0/200.webp#33-grid1"
+          "gif": "https://media1.giphy.com/media/3oEdv6Q8TR7EAAZCkU/200.webp#10-grid1"
         },
         {
           "name": "Una nit en el Ritz",
