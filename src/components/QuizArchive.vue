@@ -26,7 +26,6 @@ export default {
   mounted () {
     axios.get('https://compromis.net/quiz/quizzes.php')
       .then((quizzes) => {
-        console.log(quizzes.data)
         this.quizzes = quizzes.data
       })
   }
