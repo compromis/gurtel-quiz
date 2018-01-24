@@ -1,6 +1,6 @@
-# Compromis Rajoy or Homer Simpson
+# Compromis Gürtel Quiz
 
-> A vue.js quiz app to guess who said the phrase: Homer Simpson or Spanish President Mariano Rajoy
+> A vue.js quiz app to guage your knowledge regarding the Gürtel corruption case in Spain
 
 ## Build Setup
 
