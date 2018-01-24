@@ -8,8 +8,8 @@
       <hr />
       <p class="share-cta">Comparteix la teua puntuació<br />i reta a les teues amistats</p>
       <p class="social-plugins">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https://compromis.net/quiz/rajoy-homer/&width=198&layout=button_count&action=like&size=large&show_faces=false&share=true&height=37&appId=252515324782640&locale=ca_ES" width="213" allowtransparency="true" scrolling="no" class="social-plugins-facebook" frameborder="0" height="30"></iframe>
-        <iframe :src="'https://platform.twitter.com/widgets/tweet_button.html?size=l&url=https://compromis.net/quiz/rajoy-homer/&via=compromis&related=compromis&text=' + encodeURIComponent(tweet) + '&lang=es'" class="social-plugins-twitter" width="100" height="30" allowtransparency="true" scrolling="no" frameborder="0"></iframe>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https://compromis.net/quiz/gurtel/&width=198&layout=button_count&action=like&size=large&show_faces=false&share=true&height=37&appId=252515324782640&locale=ca_ES" width="213" allowtransparency="true" scrolling="no" class="social-plugins-facebook" frameborder="0" height="30"></iframe>
+        <iframe :src="'https://platform.twitter.com/widgets/tweet_button.html?size=l&url=https://compromis.net/quiz/gurtel/&via=compromis&related=compromis&text=' + encodeURIComponent(tweet) + '&lang=es'" class="social-plugins-twitter" width="100" height="30" allowtransparency="true" scrolling="no" frameborder="0"></iframe>
       </p>
       <hr />
       <p class="redo-quiz"><a href="#" @click.prevent="redo">🔄 Torna a fer el quiz</a></p>
