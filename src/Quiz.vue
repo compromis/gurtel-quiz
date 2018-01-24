@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="background"></div>
     <div class="quizz-wrapper">
       <app-header />
       <quiz-intro />
@@ -50,21 +49,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $text-color;
-  background-color: $background;
   font-size: 100%;
 }
 
-.background {
+body:after {
+  content: '';
   position: fixed;
-  top: 50px;
+  top: 0;
+  height: 100vh;
   left: 0;
   right: 0;
-  bottom: 0;
+  z-index: -1;
   background-image: url(./assets/images/background.jpg);
-  background-attachment: fixed;
   background-size: cover;
   background-position: center 50px;
-  background-repeat: no-repeat;
 }
 
 @font-face {
