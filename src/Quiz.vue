@@ -65,6 +65,14 @@ body:after {
   background-position: center 50px;
 }
 
+a {
+  color: $basic-orange;
+
+  &:hover {
+    color: $orange-end;
+  }
+}
+
 @font-face {
     font-family: 'Compromis';
     src: url('https://compromis.net/wp-content/themes/Compromis/fonts/akkurat-webfont.eot?2');
