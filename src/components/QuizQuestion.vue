@@ -6,7 +6,7 @@
         <div class="question-badge" v-if="question.badge"><span>{{ question.badge }}</span></div>
         <h3>{{ question.name }}</h3>
 
-        <div class="question-options">
+        <div class="question-options" :id="'o' + question.id">
           <div v-for="option in question.options">
             <quiz-option
               :key="question.options.indexOf(option)"
@@ -70,10 +70,11 @@ export default {
 
   methods: {
     selectOption (option) {
+      const scrollTo = (option.points > 0) ? 'a' : 'o';
       this.selectedOption = option
       this.$emit('updateQuiz', option)
       this.$emit('nextQuestion', this.question.id + 1)
-      this.$scrollTo('#a' + this.question.id, 500, { offset: -140 })
+      this.$scrollTo('#' + scrollTo + this.question.id, 500, { offset: -75 })
     }
   }
 }
@@ -214,7 +215,7 @@ export default {
   .question {
     h3 {
       font-size: 1.5rem;
-      padding: 1rem 1.5rem 1.5rem 1.5rem;
+      padding: 1rem 0;
     }
   }
 }
