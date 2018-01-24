@@ -82,6 +82,7 @@ input {
   &.disabled:hover {
     transform: scale(1);
     box-shadow: none;
+    background: $option-color;
   }
 }
 
