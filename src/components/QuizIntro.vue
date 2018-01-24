@@ -6,7 +6,7 @@
     </h3>
     <h2 class="intro-subheading">Posa't a prova</h2>
     <p class="intro-description">Comença el judici del cas Gürtel, una de les trames de corrupció política més importants del nostre país que demostra la vinculació del PP con “las amiguitos del alma”, i volem saber si estàs tan al dia com et penses.</p>
-    <p class="intro-action"><a href="#q1" v-scroll-to="'#q1'">Comença</a></p>
+    <p class="intro-action"><a href="#q1" v-scroll-to="'#q1'"><span class="emoji">📝</span> Comença</a></p>
   </section>
 </template>
 
@@ -75,6 +75,11 @@ export default {
       background: $text-color;
       color: $background;
     }
+  }
+  .emoji {
+    position: relative;
+    top: 2px;
+    margin-right: 0.5rem;
   }
 }
 
