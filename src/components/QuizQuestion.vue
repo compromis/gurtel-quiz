@@ -41,6 +41,7 @@
 </template>
 
 <script>
+import { EventBus } from '../event-bus.js'
 import QuizOption from './QuizOption'
 import True from '../assets/images/true.svg'
 import False from '../assets/images/false.svg'
@@ -68,9 +69,13 @@ export default {
     }
   },
 
+  mounted () {
+    EventBus.$on('reset', () => { this.selectedOption = { name: null } })
+  },
+
   methods: {
     selectOption (option) {
-      const scrollTo = (option.points > 0) ? 'a' : 'o';
+      const scrollTo = (option.points > 0) ? 'a' : 'o'
       this.selectedOption = option
       this.$emit('updateQuiz', option)
       this.$emit('nextQuestion', this.question.id + 1)

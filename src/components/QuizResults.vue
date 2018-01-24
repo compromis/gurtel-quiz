@@ -11,11 +11,14 @@
         <iframe src="https://www.facebook.com/plugins/like.php?href=https://compromis.net/quiz/rajoy-homer/&width=198&layout=button_count&action=like&size=large&show_faces=false&share=true&height=37&appId=252515324782640&locale=ca_ES" width="213" allowtransparency="true" scrolling="no" class="social-plugins-facebook" frameborder="0" height="30"></iframe>
         <iframe :src="'https://platform.twitter.com/widgets/tweet_button.html?size=l&url=https://compromis.net/quiz/rajoy-homer/&via=compromis&related=compromis&text=' + encodeURIComponent(tweet) + '&lang=es'" class="social-plugins-twitter" width="100" height="30" allowtransparency="true" scrolling="no" frameborder="0"></iframe>
       </p>
+      <hr />
+      <p class="redo-quiz"><a href="#" @click.prevent="redo">🔄 Torna a fer el quiz</a></p>
     </div>
   </div>
 </template>
 
 <script>
+import { EventBus } from '../event-bus.js'
 import Party from '../assets/images/party.svg'
 
 export default {
@@ -38,6 +41,12 @@ export default {
 
     tweet: function () {
       return 'He tret un ' + this.correctAnswers + ' de ' + this.totalQuestions + ' en el quiz sobre el cas Gürtel de @compromis. Pots superar-me?'
+    }
+  },
+
+  methods: {
+    redo () {
+      EventBus.$emit('reset', true)
     }
   }
 }
@@ -78,13 +87,21 @@ export default {
     max-width: 100%;
   }
 
+  hr {
+    margin: 1rem;
+  }
+
   .share-cta {
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .social-plugins {
     margin-top: 1rem;
+  }
+
+  .redo-quiz {
+    font-size: 1.25rem;
   }
 }
 

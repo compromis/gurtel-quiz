@@ -20,6 +20,7 @@
 </template>
 
 <script>
+import { EventBus } from '../event-bus.js'
 import QuizQuestion from './QuizQuestion'
 import QuizResults from './QuizResults'
 
@@ -49,6 +50,10 @@ export default {
     }
   },
 
+  mounted () {
+    EventBus.$on('reset', () => this.reset())
+  },
+
   methods: {
     updateQuiz (question) {
       const questionIndex = this.answers.findIndex(q => q.id === question.id)
@@ -64,6 +69,12 @@ export default {
       if (this.questions.length >= nextQuestion) {
         this.visibleQuestions.push(nextQuestion)
       }
+    },
+
+    reset () {
+      this.answers = []
+      this.visibleQuestions = [1]
+      this.$scrollTo('#q1', 500, { offset: -75 })
     }
   }
 }
