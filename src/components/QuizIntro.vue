@@ -4,7 +4,7 @@
     <h3 class="intro-heading">
       <span class="intro-heading-text">Gürtel</span>
     </h3>
-    <h2 class="intro-subheading">Quant saps?</h2>
+    <h2 class="intro-subheading">Posa't a prova</h2>
     <p class="intro-description">Comença el judici del cas Gürtel, una de les trames de corrupció política més importants del nostre país que demostra la vinculació del PP con “las amiguitos del alma”, i volem saber si estàs tan al dia com et penses.</p>
     <p class="intro-action"><a href="#q1" v-scroll-to="'#q1'">Comença</a></p>
   </section>
