@@ -3,522 +3,466 @@
   "questions": [
     {
       "id": 1,
-      "name": "Qui va dir la frase: “Me enfadé con Pablo porque hablar con él era muy complicado, estaba con la cosa de que teníamos los teléfonos pinchados“?",
-      "message": "Encara que sone impossible, els populars van presentar una esmena als Pressupostos de la Generalitat per a 2018 en la qual reclamaven 270.000 euros per a Cáritas, quan el Consell ha pressupostat 479.000 euros per aquesta entitat.",
+      "name": "Qui va dir la frase: “Me enfadé con Pablo porque hablar con él era muy complicado, estaba con la cosa de que teníamos los teléfonos pinchados”?",
+      "message": "Encara que semble una frase que poguera haver dit qualsevol personatge de Narcos, la realitat és que es tracta d'una conversa telefònica de Francisco Correa parlant sobre Pablo Crespo.",
       "options": [
         {
           "name": "Ricardo Costa",
-          "message": "Per desgràcia, així va ser...",
+          "message": "Incorrecte",
           "points": 0,
-          "gif": "https://media3.giphy.com/media/1332tmUf9Myo4o/giphy.gif"
+          "gif": "https://media2.giphy.com/media/xUPGcdZLlIBzqXpdEQ/200.webp#1-grid1"
         },
         {
           "name": "Francisco Correa",
-          "message": "Per desgràcia, així va ser...",
+          "message": "Correcte",
           "points": 1,
-          "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
+          "gif": "https://media.giphy.com/media/BlxPKxlNWsJJ6/200.webp#1-grid1"
         },
         {
           "name": "Álvaro Pérez",
-          "message": "Per desgràcia, així va ser...",
+          "message": "Incorrecte",
           "points": 0,
-          "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
+          "gif": "https://media2.giphy.com/media/xUPGcdZLlIBzqXpdEQ/200.webp#1-grid1"
         },
         {
           "name": "Luis Bárcenas",
-          "message": "Per desgràcia, així va ser...",
+          "message": "Incorrecte",
           "points": 0,
-          "gif": "https://media3.giphy.com/media/aWPGuTlDqq2yc/giphy.gif"
+          "gif": "https://media2.giphy.com/media/xUPGcdZLlIBzqXpdEQ/200.webp#1-grid1"
         }
       ]
     },
     {
       "id": 2,
       "name": "Com anomenaven els diaris valencians a la trama abans de connectar-la amb Gürtel?",
-      "message": "La Conselleria NO tanca aules ni unitats de la concertada, estableix concerts allà on no arriba la pública. Els pares tenen llibertat per a triar el centre d'estudis dels seus fills.",
+      "message": "El primer nom del cas va ser “Orange Market”,  nom de l'empresa de Àlvaro Pérez (El Bigotes) i Francisco Correa. Tot això, va ser abans de que ningú poguera imaginar que parlàvem del cas més gran de corrupció política de l'Estat, i com no podia ser d'una altra manera, el PP està pel mig.",
       "options": [
         {
           "name": "Cas Fitur",
-          "message": "Fals!",
+          "message": "Nope",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/l3vR71pwNTO4dJh3q/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7TKPdUkkbCAVqWk0/200.webp#1-grid1"
         },
         {
           "name": "Cas Bigotes",
-          "message": "Correcte!",
+          "message": "Nope",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7TKPdUkkbCAVqWk0/200.webp#1-grid1"
         },
         {
           "name": "Cas Orange Market",
-          "message": "Correcte!",
+          "message": "Bravo!",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
+          "gif": "https://media0.giphy.com/media/VfUqgzEcCC0Ew/200.webp#1-grid1"
         },
         {
           "name": "Cas Correa",
-          "message": "Correcte!",
+          "message": "Nope",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media3.giphy.com/media/l3vR5UgInxQW8wK6k/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7TKPdUkkbCAVqWk0/200.webp#1-grid1"
         }
       ]
     },
     {
       "id": 3,
       "name": "Què ha fet l'actual Presidenta del PPCV, Isabel Bonig, respecte al llegat corrupte del seu predecessor Francisco Camps?",
-      "message": "El senador Carles Mulet va plantejar aquesta pregunta al Senat per tal de visibilitzar la manca de seriositat en moltes de les respostes que el govern de Rajoy dóna a les preguntes parlamentàries dels grups de l'oposició a la cambra alta.",
+      "message": "Per al PP, la “Familia” és el més important.",
       "options": [
         {
           "name": "Reclamar-li la dimissió del Consell Jurídic Consultiu",
-          "message": "Com sona",
+          "message": "Tant de bo, però...",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media1.giphy.com/media/jqTJ9H0zE9Cta/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7btO8WLQFyw2q0Qo/200.webp#1-grid1"
         },
         {
           "name": "Posar el seu partit a disposició de la justícia per facilitar que els diners saquejats als valencians tornen a les arques públique",
-          "message": "Vaja que sí",
+          "message": "Tant de bo, però...",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/EIndPd19dL1sY/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7btO8WLQFyw2q0Qo/200.webp#1-grid1"
         },
         {
           "name": "Assistir a homenatges que els membres del PP han realitzat a Camps",
-          "message": "Vaja que sí",
+          "message": "Vergonyós, però sí",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/EIndPd19dL1sY/giphy.gif"
+          "gif": "https://media1.giphy.com/media/Pd8Bf06Sas4yQ/200.webp#1-grid1"
         },
         {
           "name": "Constituir un duo artístic amb Camps per a representar Espanya en Eurovisión",
-          "message": "Vaja que sí",
+          "message": "Per sort, no",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/EIndPd19dL1sY/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7btO8WLQFyw2q0Qo/200.webp#1-grid1"
         }
       ]
     },
     {
       "id": 4,
-      "name": "Qui va ser l'autor de la frase “en el PP la festa no s'acaba mai”?",
+      "name": "Qui va ser l'autor de la frase “en el PP la fiesta no se acaba nunca”?",
       "message": "El PP ha sigut l'únic partit de les Corts Valencianes que no va donar suport a la Llei integral de reconeixement del dret a la identitat i l'expressió de gènere.",
       "options": [
         {
           "name": "Francisco Camps",
-          "message": "No t'han clarament",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3og0IBdxsxb9zVNedW/giphy.gif"
+          "gif": "https://media3.giphy.com/media/l41YdxpMYgWYfqnmM/200.webp#6-grid1"
         },
         {
           "name": "Rita Barberá",
-          "message": "Efectivament",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3og0ILC3R1WsU2FbJm/giphy.gif"
+          "gif": "https://media3.giphy.com/media/l41YdxpMYgWYfqnmM/200.webp#6-grid1"
         },
         {
           "name": "Vicente Rambla",
-          "message": "Efectivament",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3og0ILC3R1WsU2FbJm/giphy.gif"
+          "gif": "https://media3.giphy.com/media/l41YdxpMYgWYfqnmM/200.webp#6-grid1"
         },
         {
           "name": "Ricardo Costa",
           "message": "Efectivament",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3og0ILC3R1WsU2FbJm/giphy.gif"
+          "gif": "https://media3.giphy.com/media/5HVWzCMcMpOTK/200.webp#6-grid1"
         }
       ]
     },
     {
       "id": 5,
       "name": "Quina va ser la reacció del grup parlamentari del PP quan es publicà en premsa la conversa del “Amiguito del alma” entre el Bigotes y Camps?",
-      "message": "Gràcies a la nova política de mobilitat que fomenta la peatonalització de carrers, el transport públic i l'ús de la bicicleta, els nivells de contaminació de la ciutat de València s'han reduït",
+      "message": "Al més pur “PP style”, Bonig i tota la bancada del PP van rebre a Camps entre aplaudiments quan va tornar a les Corts després d'haver sigut assenyalat en Gürtel.",
       "options": [
         {
           "name": "L'ovacionaren amb un aplaudiment en les Corts.",
-          "message": "Fake!",
+          "message": "Correcte",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/26gs6vEzlpaxuYgso/giphy.gif"
+          "gif": "https://media1.giphy.com/media/nmOCWtinjc3Be/200.webp#82-grid1"
         },
         {
           "name": "Demanaren la seua acta com a diputat.",
-          "message": "I tant trola...",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
+          "gif": "https://media0.giphy.com/media/3oz8xLd9DJq2l2VFtu/200.webp#0-grid1"
         },
         {
           "name": "Guardaren silenci i no feren declaracions.",
-          "message": "I tant trola...",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
+          "gif": "https://media0.giphy.com/media/3oz8xLd9DJq2l2VFtu/200.webp#0-grid1"
         },
         {
           "name": "El proposaren com a senador.",
-          "message": "I tant trola...",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/xT1R9ZFren71hXtu8M/giphy.gif"
+          "gif": "https://media0.giphy.com/media/3oz8xLd9DJq2l2VFtu/200.webp#0-grid1"
         }
       ]
     },
     {
       "id": 6,
       "name": "Qui va estar convidat a la boda de la filla de José María Aznar?",
-      "message": "Malgrat que el PP va votar a favor a les Corts de reclamar al govern central un Finançament Just per al País Valencià, no va acudir amb la resta de partits, sindicats, patronal i entitats socials a la manifestació celebrada el 18 de novembre per a exigir-ho. Biporalitat?",
+      "message": "La pregunta seria qui NO va estar convidat",
       "options": [
         {
           "name": "Francisco Correa",
-          "message": "Ja voldriem...",
+          "message": "Casi...",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/g52Y39pUaT21i/giphy.gif"
+          "gif": "https://media3.giphy.com/media/qLWdMYX1NYF2g/200.webp#0-grid3"
         },
         {
           "name": "Álvaro Pérez",
-          "message": "Ja voldriem...",
+          "message": "Casi...",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/geYwtodB9AiI0/giphy.gif"
+          "gif": "https://media3.giphy.com/media/qLWdMYX1NYF2g/200.webp#0-grid3"
         },
         {
           "name": "Silvio Berlusconi",
-          "message": "Ja voldriem...",
+          "message": "Casi...",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/geYwtodB9AiI0/giphy.gif"
+          "gif": "https://media3.giphy.com/media/qLWdMYX1NYF2g/200.webp#0-grid3"
         },
         {
           "name": "Tots els anteriors",
-          "message": "Ja voldriem...",
+          "message": "Serà per convidats...",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/geYwtodB9AiI0/giphy.gif"
+          "gif": "https://media1.giphy.com/media/l0Iy3uLDF7xYggW1q/200.webp#1-grid1"
         }
       ]
     },
     {
       "id": 7,
       "name": "Qui va ser l'autor de la frase: \"Algunos deberían estar callados. Me gustaría encontrármelos y enseñarle algún papel para ver de qué color se les pone la cara\"",
-      "message": "El PP va aconseguir que tornaren el noms dels carrers franquistes a la ciutat d'Alacant.",
+      "message": "Es tracta de la versió més indignada de Pablo Crespo, un personatge al qual volem tornar a veure “cantar” davant del jutge.",
       "options": [
         {
           "name": "Francisco Camps",
-          "message": "Per desgràcia, sí",
+          "message": "Nope",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/Pd8Bf06Sas4yQ/giphy.gif"
+          "gif": "https://media1.giphy.com/media/ga0OqmftzL78s/200.webp#12-grid1"
         },
         {
           "name": "Álvaro Pérez",
-          "message": "Per desgràcia, és vertader",
+          "message": "Nope",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/26BoEBp33RFNV77Ne/giphy.gif"
+          "gif": "https://media1.giphy.com/media/ga0OqmftzL78s/200.webp#12-grid1"
         },
         {
           "name": "Pablo Crespo",
-          "message": "Per desgràcia, és vertader",
+          "message": "Exacte",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/26BoEBp33RFNV77Ne/giphy.gif"
+          "gif": "https://media1.giphy.com/media/25Yr4Gysz3gYw/200.webp#12-grid1"
         },
         {
           "name": "Ricardo Costa",
-          "message": "Per desgràcia, és vertader",
+          "message": "Nope",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/26BoEBp33RFNV77Ne/giphy.gif"
+          "gif": "https://media1.giphy.com/media/ga0OqmftzL78s/200.webp#12-grid1"
         }
       ]
     },
     {
       "id": 8,
       "name": "¿Què significa la paraula Gürtel?",
-      "message": "L'Ajuntament de València no multarà ningú per penjar banderes als balcons. Es tracta d'un bulo que l'extrema dreta ha escampat per les xarxes socials.",
+      "message": "“Gürtel“ en alemany significa “Correa“, paraula que pressuposem han aprés els càrrecs del PP de tants viatges a Suïssa",
       "options": [
         {
           "name": "Trama",
-          "message": "Fake news!",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/l0MYQLUe1kuJUUSHu/giphy.gif"
+          "gif": "https://media1.giphy.com/media/8ymvg6pl1Lzy0/200.webp#7-grid1"
         },
         {
           "name": "Correa",
-          "message": "Fake! Però... fake!",
+          "message": "Correcte",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
+          "gif": "https://media1.giphy.com/media/2dI7FZreQAp44/200.webp#12-grid1"
         },
         {
           "name": "Enlaces",
-          "message": "Fake! Però... fake!",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
+          "gif": "https://media1.giphy.com/media/8ymvg6pl1Lzy0/200.webp#7-grid1"
         },
         {
           "name": "Conexión",
-          "message": "Fake! Però... fake!",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/l0MYvV7rbVYm2e1Y4/giphy.gif"
+          "gif": "https://media1.giphy.com/media/8ymvg6pl1Lzy0/200.webp#7-grid1"
         }
       ]
     },
     {
       "id": 9,
       "name": "Quin empresari alacantí, investigat en Brugal i finançador il·legal del PP confés, usava el nom artístic de “la polla insaciable”?",
-      "message": "Sí, així ho va declarar l'alcalde de València en defensa de la diversitat i en resposta a la campanya trànsfoba de l'associació “Hazte Oir”.",
+      "message": "“La polla insaciable” era el nom d'Enrique Ortiz. No comment.",
       "options": [
         {
           "name": "Enrique Ortiz",
           "message": "Clar que sí!",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/l41YwLuanve0L4XOE/giphy.gif"
+          "gif": "https://media1.giphy.com/media/9QeSVgwB6i5Ik/200.webp#7-grid1"
         },
         {
           "name": "Alfonso Rus",
-          "message": "Clar que ho va dir!",
+          "message": "Bon intent, però...",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/l41YktuUJjzzOshri/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7TKxZzyBk4IlS7Is/200.webp#7-grid1"
         },
         {
           "name": "Nacho Vidal",
-          "message": "Clar que ho va dir!",
+          "message": "Bon intent, però...",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/l41YktuUJjzzOshri/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7TKxZzyBk4IlS7Is/200.webp#7-grid1"
         },
         {
           "name": "Francisco Correa",
-          "message": "Clar que ho va dir!",
+          "message": "Bon intent, però...",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/l41YktuUJjzzOshri/giphy.gif"
+          "gif": "https://media1.giphy.com/media/3o7TKxZzyBk4IlS7Is/200.webp#7-grid1"
         }
       ]
     },
     {
       "id": 10,
-      "name": "Com era la relació entre Francisco Camps i Álvaro Pérez “El Bigotes” segons explicaven ells mateixos?",
-      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "name": "Quina quantitat estimava Francisco Camps a Álvaro Pérez “El Bigotes”?",
+      "message": "Encara que l'amor és un concepte immesurable, Camps i El Bigotes s'estimaven “fue muy bonito”",
       "options": [
         {
-          "name": "Lo nuestro es muy bonito",
-          "message": "No, va ser molt pitjor...",
+          "name": "Mazo",
+          "message": "Incorecte",
+          "points": 0,
+          "gif": "https://media1.giphy.com/media/OTg4nrmU8vkty/200.webp#7-grid1"
+        },
+        {
+          "name": "A muntó",
+          "message": "Incorecte",
+          "points": 0,
+          "gif": "https://media1.giphy.com/media/OTg4nrmU8vkty/200.webp#7-grid1"
+        },
+        {
+          "name": "La hostia",
+          "message": "Incorecte",
+          "points": 0,
+          "gif": "https://media1.giphy.com/media/OTg4nrmU8vkty/200.webp#7-grid1"
+        },
+        {
+          "name": "Un güevo",
+          "message": "Correcte",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
-        },
-        {
-          "name": "Best Friends Forever BFF",
-          "message": "Va ser molt pitjor...",
-          "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
-        },
-        {
-          "name": "Mucho más que una amistad",
-          "message": "Va ser molt pitjor...",
-          "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
-        },
-        {
-          "name": "El Dúo Dinámico",
-          "message": "Va ser molt pitjor...",
-          "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/rSgzIgvxAXwyY/200.webp#7-grid1"
         }
       ]
     },
     {
       "id": 11,
-      "name": "Quina quantitat estimava Francisco Camps a Álvaro Pérez “El Bigotes”?",
-      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "name": "En quin any comença la Fiscalia Anticorrupció la seua investigació en Gürtel?",
+      "message": "Fa més de 10 anys que Anticorrupció començà la investigació d'un cas que ha terminat demostrant que el PP és un partit creat per a saquejar els diners públics.",
       "options": [
         {
-          "name": "Mazo",
-          "message": "No, va ser molt pitjor...",
+          "name": "2011",
+          "message": "Pels pels",
+          "points": 0,
+          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
+        },
+        {
+          "name": "2007",
+          "message": "Correcte",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+          "gif": "https://media2.giphy.com/media/3HAYjf986boJO698zIY/200w.webp#1-grid1"
         },
         {
-          "name": "A muntó",
-          "message": "Va ser molt pitjor...",
+          "name": "2001",
+          "message": "WRONG!!",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
         },
         {
-          "name": "La hostia",
-          "message": "Va ser molt pitjor...",
+          "name": "2009",
+          "message": "Pels pels",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
-        },
-        {
-          "name": "Un güevo",
-          "message": "Va ser molt pitjor...",
-          "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
         }
       ]
     },
     {
       "id": 12,
-      "name": "En quin any comença la Fiscalia Anticorrupció la seua investigació en Gürtel?",
-      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "name": "Quin era el nom en clau que utilitzava Enrique Ortíz per anomenar a l'exalcaldessa del PP en Alacant Sonia Castedo?",
+      "message": "Sonia Castedo per a Enrique Ortiz era “Mimosina”. Sort que, segons ells, no tenien una relació íntima.",
       "options": [
         {
-          "name": "2011",
-          "message": "No, va ser molt pitjor...",
+          "name": "Rubia",
+          "message": "Possible, però no",
           "points": 0,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
         },
         {
-          "name": "2007",
-          "message": "Va ser molt pitjor...",
+          "name": "Carinyet",
+          "message": "Possible, però no",
+          "points": 0,
+          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
+        },
+        {
+          "name": "Mimosina",
+          "message": "Així és",
           "points": 1,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/1tHzw9PZCB3gY/200.webp#7-grid1"
         },
         {
-          "name": "2001",
-          "message": "Va ser molt pitjor...",
+          "name": "Ferrero Rocher",
+          "message": "Possible, però no",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
-        },
-        {
-          "name": "2009",
-          "message": "Va ser molt pitjor...",
-          "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/26ufi4fh9GwUFuZmo/200.webp#7-grid1"
         }
       ]
     },
     {
       "id": 13,
-      "name": "Quin era el nom en clau de l’ex alcaldessa d’Alacant amb el PP, Sonia Castedo, per a Enrique Ortiz?",
-      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "name": "Què és “lo normal” en un regal de Nadal, segons Rita Barberá va definir els obsequis que rebia de la trama Gürtel?",
+      "message": "",
       "options": [
         {
-          "name": "Bombón",
-          "message": "No, va ser molt pitjor...",
+          "name": "Una caixa de taronges",
+          "message": "Cutrerías las mínimas",
+          "points": 0,
+          "gif": "https://i.giphy.com/media/l0Ex6JxsaEp5w1wc0/200.webp"
+        },
+        {
+          "name": "Un Vuitton",
+          "message": "Qui no ha rebut aquest regal per Nadal?",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+          "gif": "https://media0.giphy.com/media/l0Ex6JxsaEp5w1wc0/200.webp#33-grid1"
         },
         {
-          "name": "Carinyet",
-          "message": "Va ser molt pitjor...",
+          "name": "Una nit en el Ritz",
+          "message": "Una nit només? Cutrerías las mínimas",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://i.giphy.com/media/l0Ex6JxsaEp5w1wc0/200.webp"
         },
         {
-          "name": "Mimosina",
-          "message": "Va ser molt pitjor...",
+          "name": "Beefeater",
+          "message": "Cutrerías las mínimas",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
-        },
-        {
-          "name": "Ferrero Rocher",
-          "message": "Va ser molt pitjor...",
-          "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://i.giphy.com/media/l0Ex6JxsaEp5w1wc0/200.webp"
         }
       ]
     },
     {
       "id": 14,
-      "name": "Què és “lo normal” en un regal de Nadal, segons Rita Barberá va definir els obsequis que rebia de la trama Gürtel?",
-      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "name": "Com era la relació entre Francisco Camps i Álvaro Pérez “El Bigotes” segons explicaven ells mateixos?",
+      "message": "La relació entre Camps i El Bigotes “fue muy bonita”. Però, com sempre que hi han diners pel mig, la cosa no ha eixit com esperaven",
       "options": [
         {
-          "name": "Una caixa de taronges",
-          "message": "No, va ser molt pitjor...",
+          "name": "Lo nuestro es muy bonito",
+          "message": "Correcte",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+          "gif": "https://media1.giphy.com/media/6fsGMXzPvNDWg/200.webp#7-grid1"
         },
         {
-          "name": "Un Vuitton",
-          "message": "Va ser molt pitjor...",
+          "name": "Best Friends Forever BFF",
+          "message": "Incorrecte. No parlen anglés.",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/171p6S8CPeiIg/200.webp#7-grid1"
         },
         {
-          "name": "Carbó",
-          "message": "Va ser molt pitjor...",
+          "name": "Mucho más que una amistad",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/171p6S8CPeiIg/200.webp#7-grid1"
         },
         {
-          "name": "Brandy Soberano",
-          "message": "Va ser molt pitjor...",
+          "name": "El Dúo Dinámico",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media1.giphy.com/media/171p6S8CPeiIg/200.webp#7-grid1"
         }
       ]
     },
     {
       "id": 15,
       "name": "De què eren els 100 grams que Ricardo Costa li va encomanar a “El Bigotes”?",
-      "message": "Malauradament, les persones amb màscares de Scream que es van concentrar a les portes de la casa de Mónica Oltra no eren seguidors de la popular pel·lícula de terror, sinó un grup d'extrema dreta que aprofitava la nit per assejtar la Vicepresidenta en el seu domicili.",
+      "message": "Si hi ha alguna cosa que identifica al PP, és la passió pel luxe, sempre i quan siga a compte dels altres, of course!",
       "options": [
         {
           "name": "Caviar",
-          "message": "No, va ser molt pitjor...",
+          "message": "Caviar, i de la millor qüalitat",
           "points": 1,
-          "type": "rajoy",
-          "gif": "https://media.giphy.com/media/3ohrygmETrDYxWlytq/giphy.gif"
+          "gif": "https://media3.giphy.com/media/ZMqjORZltsQh2/200.webp#14-grid1"
         },
         {
-          "name": "Ibuprofè",
-          "message": "Va ser molt pitjor...",
+          "name": "“Polvitos mágicos”",
+          "message": "No sigues malpensat",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media2.giphy.com/media/8ymvg6pl1Lzy0/200.webp#1-grid1"
         },
         {
           "name": "Propaganda de Ciudadanos",
-          "message": "Va ser molt pitjor...",
+          "message": "Incorrecte",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media2.giphy.com/media/8ymvg6pl1Lzy0/200.webp#1-grid1"
         },
         {
           "name": "Anguiles",
-          "message": "Va ser molt pitjor...",
+          "message": "100 grams, només?",
           "points": 0,
-          "type": "homer",
-          "gif": "https://media.giphy.com/media/3ohryeL0lRh5tR1XvG/giphy.gif"
+          "gif": "https://media2.giphy.com/media/8ymvg6pl1Lzy0/200.webp#1-grid1"
         }
       ]
     }
@@ -527,26 +471,26 @@
     {
       "minPoints": 0,
       "maxPoints": 7,
-      "message": "No et cregues tot el que lliges per Internet. Malauradament, la xarxa està plena de notícies falses; per això, et recomanem sempre llegir-les en més d'un mitjà de comunicació per a poder contrastar-les i que no et donen gat per llebre.",
-      "gif": "https://media.giphy.com/media/P0RWkdsRpK7ss/giphy.gif"
+      "message": "Quan de Gürtel es tracta, sabem que és difícil diferenciar entre ficció i realitat",
+      "gif": "https://media0.giphy.com/media/gOnd03UWo6hG0/200.webp#24-grid3"
     },
     {
       "minPoints": 8,
       "maxPoints": 12,
-      "message": "Sens dubte, ets una persona que està al dia de la informació; però, a vegades, baixes la guàrdia i et colen alguna “fake news”. Vés més amb compte ;)",
-      "gif": "https://media3.giphy.com/media/l0IyjvPvBs0oYEwZW/giphy.gif"
+      "message": "Es nota que estàs ben informat, però encara no ets un expert.",
+      "gif": "https://media0.giphy.com/media/t0005w3YYbuIU/200.webp#24-grid3"
     },
     {
       "minPoints": 13,
       "maxPoints": 14,
-      "message": "Enhorabona, ets un pro detectant notícies falses!",
-      "gif": "https://media.giphy.com/media/26DOoDwdNGKAg6UKI/giphy.gif"
+      "message": "Impressionant. Ets tot un expert en aquest cas.",
+      "gif": "https://media1.giphy.com/media/W12WAzuqod9VS/200.webp#3-grid3"
     },
     {
       "minPoints": 15,
       "maxPoints": 15,
-      "message": "Wow! Ets un pro detectant notícies falses, no te'n colen ni una!",
-      "gif": "https://media.giphy.com/media/YYD3fLEOdcOv6/giphy.gif"
+      "message": "Ningú et supera en coneixement sobre les corrupteles del PP.",
+      "gif": "https://media1.giphy.com/media/rFPH6jKnrAKU8/200.webp#1-grid2"
     }
   ]
 }
