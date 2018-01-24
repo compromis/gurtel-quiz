@@ -92,6 +92,7 @@ input {
 
 .option-is-correct.selected,
 .option-is-correct.selected:hover,
+.option-is-correct.disabled:hover,
 .option-is-correct.revealed {
   background: $true-color-end;
   color: #fff;
