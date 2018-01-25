@@ -196,11 +196,13 @@ export default {
 
   h4 {
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0.25rem 0;
   }
 
   p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.25;
   }
 }
@@ -223,6 +225,16 @@ export default {
     h3 {
       font-size: 1.5rem;
       padding: 1rem 0;
+    }
+  }
+
+  .answer {
+    h4 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
     }
   }
 }
