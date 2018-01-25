@@ -3,7 +3,9 @@
     <div class="results" id="results">
       <Party class="party-hat" />
       <h3>Has encertat {{ correctAnswers }} de {{ totalQuestions }}</h3>
-      <img :src="result.gif" alt="Gif reacció" />
+      <div class="gif">
+        <gif :id="result.gif" />
+      </div>
       <p>{{ result.message }}</p>
       <hr />
       <p class="share-cta">Comparteix la teua puntuació<br />i reta a les teues amistats</p>
@@ -19,6 +21,7 @@
 
 <script>
 import { EventBus } from '../event-bus.js'
+import Gif from './Gif'
 import Party from '../assets/images/party.svg'
 
 export default {
@@ -31,6 +34,7 @@ export default {
   },
 
   components: {
+    Gif,
     Party
   },
 
@@ -81,10 +85,8 @@ export default {
     margin: 0 auto;
   }
 
-  img {
-    border-radius: 5px;
+  .gif {
     margin: 1rem 0;
-    max-width: 100%;
   }
 
   hr {

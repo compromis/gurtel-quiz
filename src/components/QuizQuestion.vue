@@ -26,7 +26,7 @@
                 <div class="answer-icon">
                   <Thumbs :class="{ 'upside-down': selectedOption.points == 0 }" />
                 </div>
-                <img :src="selectedOption.gif" alt="Gif" class="answer-gif" />
+                <gif :id="selectedOption.gif" />
                 <h4>{{ selectedOption.message }}</h4>
                 <p>{{ question.message }}</p>
                 <p v-if="nextQuestionId" class="next-button"><a :href="'#q' + nextQuestionId" v-scroll-to="'#q' + nextQuestionId">Següent pregunta</a></p>
@@ -43,6 +43,7 @@
 <script>
 import { EventBus } from '../event-bus.js'
 import QuizOption from './QuizOption'
+import Gif from './Gif'
 import True from '../assets/images/true.svg'
 import False from '../assets/images/false.svg'
 import Thumbs from '../assets/images/thumbs.svg'
@@ -52,6 +53,7 @@ export default {
 
   components: {
     QuizOption,
+    Gif,
     True,
     False,
     Thumbs
