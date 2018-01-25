@@ -77,6 +77,7 @@ export default {
   background: linear-gradient(270deg, $orange-start, $orange-end);
   background-size: 200% 100%;
   animation: HeaderOrange 15s ease infinite;
+  box-shadow: 0 1px 100px -10px rgba(0, 0, 0, 0.6);
 }
 
 .top-header-brand {
