@@ -24,7 +24,6 @@ export default {
   },
 
   mounted () {
-    console.log(API)
     API.getArchive().then((quizzes) => {
       this.quizzes = quizzes.data
     })
