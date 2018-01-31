@@ -3,6 +3,14 @@
     <div class="quizz-wrapper">
       <app-header />
       <quiz-intro />
+      <fb-signin-button
+        :params="fbSignInParams"
+        @success="onSignInSuccess"
+        @error="onSignInError">
+        Sign in with Facebook
+      </fb-signin-button>
+      {{ me }}
+      {{ friends }}
       <true-false-quiz :questions="questions" :results="results" />
       <app-footer />
     </div>
@@ -29,13 +37,34 @@ export default {
   data () {
     return {
       questions: [],
-      results: []
+      results: [],
+      me: {},
+      friends: [],
+      fbSignInParams: {
+        scope: 'public_profile,user_friends',
+        return_scopes: true
+      }
     }
   },
 
   mounted () {
     this.questions = quiz.questions
     this.results = quiz.results
+  },
+
+  methods: {
+    onSignInSuccess (response) {
+      FB.api('/me/friends', friends => {
+        this.friends = friends.data
+      })
+
+      FB.api('/me', me => {
+        this.me = me
+      })
+    },
+    onSignInError (error) {
+      console.log('OH NOES', error)
+    }
   }
 }
 </script>

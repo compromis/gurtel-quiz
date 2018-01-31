@@ -3,11 +3,13 @@
 import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
 import Quiz from './Quiz'
+import FBSignInButton from 'vue-facebook-signin-button'
 
 Vue.config.productionTip = false
 Vue.use(VueScrollTo, {
   offset: -70
 })
+Vue.use(FBSignInButton)
 
 /* eslint-disable no-new */
 new Vue({
