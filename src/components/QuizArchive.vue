@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import API from '../api'
 
 export default {
   name: 'quiz-archive',
@@ -24,10 +24,10 @@ export default {
   },
 
   mounted () {
-    axios.get('https://compromis.net/quiz/quizzes.php')
-      .then((quizzes) => {
-        this.quizzes = quizzes.data
-      })
+    console.log(API)
+    API.getArchive().then((quizzes) => {
+      this.quizzes = quizzes.data
+    })
   }
 }
 </script>
