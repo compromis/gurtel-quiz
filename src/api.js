@@ -19,6 +19,10 @@ class Backend {
     return this._call('POST', 'stats', params)
   }
 
+  getScores (params) {
+    return this._call('GET', 'scores', params)
+  }
+
   _call (method, endpoint, params) {
     const baseURL = endpoint === 'archive' ? this.quizArchiveUrl : this.apiBaseUrl + this.quizId
     const url = endpoint === 'archive' ? '/quizzes.php' : '/' + endpoint
