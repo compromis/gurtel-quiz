@@ -79,7 +79,7 @@ export default {
     selectOption (option) {
       const scrollTo = (option.points > 0) ? 'a' : 'o'
       this.selectedOption = option
-      this.$emit('updateQuiz', option)
+      this.$emit('updateQuiz', option, this.question)
       this.$emit('nextQuestion', this.question.id + 1)
       this.$scrollTo('#' + scrollTo + this.question.id, 500, { offset: -75 })
     }

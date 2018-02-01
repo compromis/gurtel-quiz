@@ -12,7 +12,7 @@
     </div>
 
     <quiz-results
-      v-if="answers.length == questions.length && answers.length > 1"
+      v-if="answers.length === questions.length && answers.length > 1"
       :results="results"
       :correct-answers="correctAnswers"
       :total-questions="questions.length" />
@@ -55,14 +55,22 @@ export default {
   },
 
   methods: {
-    updateQuiz (question) {
-      const questionIndex = this.answers.findIndex(q => q.id === question.id)
+    updateQuiz (option, question) {
+      const optionIndex = this.answers.findIndex(o => o.id === option.id)
 
-      if (questionIndex) {
-        this.answers.splice(questionIndex, 1)
+      if (optionIndex) {
+        this.answers.splice(optionIndex, 1)
       }
 
-      this.answers.push(question)
+      this.answers.push(option)
+
+      // Send the selected option to the server
+      EventBus.$emit('postStats', option, question)
+
+      // If all questions answered, send the final score to the server
+      if (this.answers.length === this.questions.length && this.answers.length > 1) {
+        EventBus.$emit('postScore', this.correctAnswers)
+      }
     },
 
     nextQuestion (nextQuestion) {

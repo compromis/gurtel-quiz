@@ -18,6 +18,8 @@
 </template>
 
 <script>
+import API from './api'
+import { EventBus } from './event-bus'
 import AppHeader from './components/AppHeader'
 import AppFooter from './components/AppFooter'
 import QuizIntro from './components/QuizIntro'
@@ -38,7 +40,10 @@ export default {
     return {
       questions: [],
       results: [],
-      me: {},
+      me: {
+        id: null,
+        name: ''
+      },
       friends: [],
       fbSignInParams: {
         scope: 'public_profile,user_friends',
@@ -50,6 +55,9 @@ export default {
   mounted () {
     this.questions = quiz.questions
     this.results = quiz.results
+
+    EventBus.$on('postStats', (option, question) => this.postStats(option, question))
+    EventBus.$on('postScore', (score) => this.postScore(score))
   },
 
   methods: {
@@ -64,6 +72,24 @@ export default {
     },
     onSignInError (error) {
       console.log('OH NOES', error)
+    },
+    postStats (option, question) {
+      API.postStats({
+        quiz: quiz.id,
+        fb_id: this.me.id,
+        name: this.me.name,
+        question_id: question.id,
+        answer: option.name,
+        points: option.points
+      })
+    },
+    postScore (score) {
+      API.postSscore({
+        quiz: quiz.id,
+        fb_id: this.me.id,
+        name: this.me.name,
+        score
+      })
     }
   }
 }
