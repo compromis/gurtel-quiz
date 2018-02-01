@@ -2,7 +2,7 @@ import axios from 'axios'
 
 class Backend {
   constructor () {
-    this.quizArchiveUrl = 'https://compromis.net/quiz/'
+    this.quizArchiveUrl = 'https://quiz.compromis.net/api/quiz/'
     this.apiBaseUrl = 'https://compromis.net/quiz/backend/'
     this.quizId = 'gurtel'
   }
